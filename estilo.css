@@ -1,0 +1,54 @@
+
+body {
+    background-color: #171323;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+header {
+    background-color: #35204f;
+    padding: 30px;
+}
+header h1 {
+    color: gold;
+}
+nav {
+    background-color: black;
+    padding: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+nav a:hover {
+    background-color: purple;
+    color: gold;
+}
+section {
+    padding: 30px;
+}
+h2 {
+    color: gold;
+}
+article {
+    background-color: #51346b;
+    display: inline-block;
+    width: 25%;
+    padding: 15px;
+    margin: 10px;
+}
+
+article:nth-child(2) {
+    background-color: #51346b;
+}
+article img {
+    width: 150px;
+}
+.principal {
+    width: 300px;
+}
+footer {
+    background-color: black;
+    padding: 20px;
+}
